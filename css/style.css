@@ -1,4 +1,40 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+/* hero-part css start */
+.hero-part{ 
+    width: 100%;
+    background: linear-gradient(180deg, #DDBAA0 0%, #EAD1B7 100%);
+}
+/* hero-part css end */
+
+/* nav css start */
+nav{
+    width: 100%;
+    display: flex;
+    padding: 32px 0px;
+    justify-content: space-between;
+}
+
+#book-free-btn{
+    color: #000;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 1px solid #000000;
+    padding: 16px 32px 16px 32px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family:poppins;
+}
+/* nav css end */
