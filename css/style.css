@@ -38,3 +38,24 @@ nav{
     font-family:poppins;
 }
 /* nav css end */
+
+/* hero-content css start */
+.hero-content{
+    width: 100%;
+    height: 524px;
+    display: flex;
+    background-color: rgb(5, 26, 26);
+}
+
+.hero-content-text{
+    height: 100%;
+    width: 570px;
+    background-color: aqua;
+}
+.hero-content-video{
+    height: 100%;
+    width: 430px;
+    background-color: rgb(74, 77, 141);
+
+}
+/* hero-content css end */
