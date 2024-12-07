@@ -44,18 +44,323 @@ nav{
     width: 100%;
     height: 524px;
     display: flex;
-    background-color: rgb(5, 26, 26);
+    /* background-color: rgb(5, 26, 26); */
 }
 
 .hero-content-text{
     height: 100%;
     width: 570px;
-    background-color: aqua;
+    background: linear-gradient(180deg, #DDBAA0 0%, #EAD1B7 100%);
+
+    /* background-color: aqua; */
 }
 .hero-content-video{
     height: 100%;
     width: 430px;
-    background-color: rgb(74, 77, 141);
+    background: linear-gradient(180deg, #DDBAA0 0%, #EAD1B7 100%);
+    
 
 }
+.hero-content-text h1{
+    width: 570px;
+    height: 116px;
+    font-family: poppins;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 58.46px;
+}
+
+.hero-content-text p{
+    width: 570px;
+    height: 52px;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btns{
+    padding:32px 0 ;
+    display: flex;
+    gap: 16px;
+   
+}
+
+.btns .btn-left{
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 6px;
+    /* typography */
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btns .btn-right{
+    display:flex ;
+    color: #000000;
+    text-decoration: none;
+    /* background: linear-gradient(180deg, #DDBAA0 0%, #EAD1B7 100%); */
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+}
+
+.hero-content-video img{
+    width:398px;
+    height: 320px;
+    margin-top: 49px;
+    margin-right: 220px;
+    margin-bottom:155px ;
+}
 /* hero-content css end */
+
+/* review section starts */
+.review-section{
+    width: 100%;
+    background: #EFF9FA;
+
+}
+
+.review-container{
+    width: 1000px;
+    height:853px;
+    margin: 0 auto;
+    padding: 52px 0; 
+}
+
+.review-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:32px ;
+}
+
+.review-nav h3{
+    font-family: poppins;
+    font-size: 32px;
+    font-weight: 700;
+    /* line-height: 38.98px; */
+   
+}
+
+.review-nav .navigation-btn{
+    display: flex;
+    gap: 24px;
+}
+
+.review-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 62px;
+}
+
+.review-card{
+    width: 312px;
+    min-height:456px;
+    width: Hug (312px)px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 24px 16px 24px 16px;
+
+
+}
+
+.review-card-profile{
+    display: flex;
+}
+
+.profile-name{
+    padding:6px 0 5px 11px ;
+}
+.profile-name h4{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    coloe: #000000;
+
+}
+
+
+.profile-name .verified-review{
+    display: flex;
+}
+
+.profile-name .verified-review p{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #00000099;
+    margin-left: 6px;
+}
+
+.review-images{
+    display: flex;
+    gap:16px ;
+    margin: 16px 0;
+}
+
+.review-images .review-image-title {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 6px 42px;
+    border-radius: 6px 6px 0px 0px;
+    background-color: #C9E8ED;
+    color: #000000;
+    text-align: center;
+}
+
+.review-text{
+    max-width: 280px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+
+.booking-btn {
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+
+.booking-btn a{
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #000000 ;
+    padding: 16px 32px ;
+    border-radius: 6px;
+}
+
+/* review section ends */
+
+/* form section starts */
+
+.form{
+    width: 100%;
+    height: 399px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px 0px  #0000004D;
+    margin: 61px 0px 0 0px;
+}
+
+.form h2{
+    font-family: poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.98px;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.form-row{
+    gap:16px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.form-input{
+    width: 320px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #0000004D;
+    padding: 12px;
+}
+
+.full-width-form-inputs{
+    width: 656px;
+    height: 48px;
+}
+
+.form-btn{
+    width: 152px;
+    height: 56px;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 700;
+    background-color:#EAB99E;
+    color: #000000;
+    padding: 16px 32px;
+    border: none;
+    border-radius:6px;
+    margin: 16px  424px 32px 424px;
+}
+/* form section ends */
+
+/* example section starts*/
+
+.example{
+    width: 100%;
+    height:320px;
+    display: flex;
+    margin: 90px 0 ;
+}
+
+.text-area{
+    text-align: left;
+    padding: 17px 0 17px 32px ;
+}
+
+.text-area h3{
+    font-family:poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.98px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.text-area p{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.text-area a{
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 32px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+/* example section ends */ 
+
+/* feautured on section starts */
+.featured-ons{
+    width: 100%;
+    background-color:#EFF9FA;
+}
+.heading{
+    padding: 32px 366px;
+}
+.images-row{
+    display: flex;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+/* feautured on section ends */
