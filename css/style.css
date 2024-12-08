@@ -364,3 +364,54 @@ nav{
     padding-bottom: 32px;
 }
 /* feautured on section ends */
+/* consultation section starts */
+.consultation{
+    width: 100%;
+    background-color: #DDBAA04D;
+
+}
+.consultation-heading{
+    width: 100%;
+    padding: 62px 0 32px 0;
+}
+
+#heading-id{
+    font-family: poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.98px;
+    text-align: center;
+}
+
+.consultancy-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding-bottom: 62px;
+}
+
+.consultancy-card img{
+    margin-bottom: 16px;
+    width: 312px;
+    height: 240px;
+}
+
+.consultancy-card h4{
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.consultancy-card p{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+/* consultation section starts */
