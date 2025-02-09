@@ -22,6 +22,7 @@ nav{
     width: 100%;
     display: flex;
     padding: 32px 0px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -44,19 +45,86 @@ nav{
     width: 100%;
     height: 524px;
     display: flex;
-    background-color: rgb(5, 26, 26);
 }
 
 .hero-content-text{
     height: 100%;
     width: 570px;
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
 }
+
+.hero-content-text-heading{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 58.46px;
+    font-family: poppins;
+    margin-bottom: 16px;
+    
+}
+.hero-content-text-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    font-family: Poppins;  
+    margin-bottom: 32px;
+}
+
+.hero-content-btns{
+    gap: 16px;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+
+.hero-content-btn{
+    color: #fff;
+    padding: 16px 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-radius: 6px;
+    background-color: #000;
+    text-decoration: none;
+    margin-bottom: 32px;
+
+}
+
+.hero-content-btn:last-child{
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.hero-content-btn:last-child i{
+    margin-left: 10px;
+}
+
+.hero-content-img{
+    height: 96px;
+    width: 283px;
+}
+
 .hero-content-video{
     height: 100%;
     width: 430px;
-    background-color: rgb(74, 77, 141);
+    /* background-color: rgb(74, 77, 141); */
+    position: relative;
 
+}
+
+
+.hero-content-video img{
+    width: 398px;
+    height: 320px;
+    position: absolute;
+    top: 68px;
+    right: -31px;
+  
 }
 /* hero-content css end */
 
@@ -246,3 +314,26 @@ nav{
     font-weight: 700;
     line-height: 24px;
 }
+
+
+@media (max-width: 376px){
+    .container{
+        width: 320px;
+        background-color: aqua;
+        margin: 0 auto; 
+
+    }
+
+    .nav-img{
+        width: 123px;
+        height: 30px;
+    }
+
+    #book-free-btn{ 
+        padding: 12px 16px 12px 16px;
+    }
+    
+}
+
+
+
